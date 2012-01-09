@@ -5,11 +5,11 @@
   "maintainers": [{  "name": "Clint Harris",  "web": "https://github.com/clinthharris" }],
   "licenses": [{
       "type" : "MIT",
-      "url" : "http://github.com/clintharris/node-same-same/raw/master/LICENSE"
+      "url" : "http://github.com/clintharris/same-same/raw/master/LICENSE"
   }],
   "repository": {
     "type": "git",
-    "url": "http://github.com/clintharris/node-same-same.git"
+    "url": "http://github.com/clintharris/same-same.git"
   },
   "engines": {
     "node": "~v0.6.x"
