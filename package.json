@@ -1,0 +1,26 @@
+{
+  "name": "same-same",
+  "version": "0.0.0",
+  "description": "But different. Recursively deep equality checking + optional ability to ignore certain properties, order of arrays contents, or order of properties in objects.",
+  "maintainers": [{  "name": "Clint Harris",  "web": "https://github.com/clinthharris" }],
+  "licenses": [{
+      "type" : "MIT",
+      "url" : "http://github.com/clintharris/node-same-same/raw/master/LICENSE"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/clintharris/node-same-same.git"
+  },
+  "engines": {
+    "node": "~v0.6.x"
+  },
+  "dependencies": {
+    "underscore": "1.2.x"
+  },
+  "devDependencies": {
+    "nodeunit": "0.6.x"
+  },
+  "scripts": {
+    "test": "node test/test-all.js"
+  }
+}
