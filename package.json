@@ -18,9 +18,12 @@
     "underscore": "1.2.x"
   },
   "devDependencies": {
-    "nodeunit": "0.6.x"
+    "nodeunit": "0.6.x",
+    "uglify-js": "1.2.4",
+    "async": "0.1.x"
   },
   "scripts": {
-    "test": "node test/test-all.js"
+    "test": "node test/test-all.js",
+    "postinstall": "node minify.js"
   }
 }

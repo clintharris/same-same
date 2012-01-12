@@ -1,5 +1,5 @@
 var nodeunit = require('nodeunit');
-var same = require('../index.js')
+var same = require('../index.js');
 
 module.exports = nodeunit.testCase({
 
@@ -65,7 +65,7 @@ module.exports = nodeunit.testCase({
         var areEqual = same.same(obj1, obj2 /*, { logFcn: console.log }*/);
         test.equal(areEqual, false, 'kids.id should have been detected as inequal');
 
-        areEqual = same.same(obj1, obj2, { ignorePaths: ['kids.id'] , logFcn: console.log});
+        areEqual = same.same(obj1, obj2, { ignorePaths: ['kids.id'] /*, logFcn: console.log*/});
         test.equal(areEqual, true);
 
         test.done();
