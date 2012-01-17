@@ -24,6 +24,6 @@
   },
   "scripts": {
     "test": "node test/test-all.js",
-    "postinstall": "node minify.js"
+    "minify": "node minify.js"
   }
 }
