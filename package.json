@@ -1,6 +1,6 @@
 {
   "name": "same-same",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "But different. Recursively deep equality checking + optional ability to ignore certain properties, order of arrays contents, or order of properties in objects.",
   "maintainers": [{  "name": "Clint Harris",  "web": "https://github.com/clinthharris" }],
   "licenses": [{
