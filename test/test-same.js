@@ -175,5 +175,10 @@ module.exports = nodeunit.testCase({
 
         test.equal(same.same(movie1, movie2), false);
         test.done();
+    },
+
+    'works with null values': function (test) {
+        test.equal(same.same(null, null), true);
+        test.done();
     }
 });
